@@ -1,0 +1,20 @@
+.avatar-rounded-rectangle {
+  border-radius: 10%;
+  height: auto;
+}
+
+.contact-widget {
+  .simple-icon {
+    line-height: revert !important;
+  }
+  #map {
+    margin-top: 3em;
+  }
+}
+
+// Use smaller avatar size in About widget on small devices.
+@include media-breakpoint-down(sm) {
+  .wg-about .avatar-rounded-rectangle {
+    height: auto;
+  }
+}

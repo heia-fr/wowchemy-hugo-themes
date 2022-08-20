@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+module github.com/heia-fr/wowchemy-hugo-themes/modules/wowchemy
 
 go 1.15

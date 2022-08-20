@@ -200,3 +200,10 @@
   {{ partial "custom_js" . }}
 {{ end }}
 {{ partial "functions/get_hook" (dict "hook" "body-end" "context" .) }}
+
+{{ $js := resources.Get "js/devto.js" | js.Build (dict "format" "esm" "minify" true) }}
+{{- if hugo.IsProduction -}}
+  {{- $js = $js | fingerprint "md5" -}}
+{{- end -}}
+<script src="{{ $js.RelPermalink }}" type="module"></script>
+

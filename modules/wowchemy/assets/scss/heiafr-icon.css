@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'heiafr-icon';
+  src:  url('fonts/heiafr-icon.eot?bgn37b');
+  src:  url('fonts/heiafr-icon.eot?bgn37b#iefix') format('embedded-opentype'),
+    url('fonts/heiafr-icon.ttf?bgn37b') format('truetype'),
+    url('fonts/heiafr-icon.woff?bgn37b') format('woff'),
+    url('fonts/heiafr-icon.svg?bgn37b#heiafr-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.heiafr-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'heiafr-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heiafr-icon-hesso:before {
+  content: "\e901";
+}
+.heiafr-icon-tower:before {
+  content: "\e909";
+}
+.heiafr-icon-logo-s:before {
+  content: "\e90a";
+}
+.heiafr-icon-isis:before {
+  content: "\e902";
+}
+.heiafr-icon-isc:before {
+  content: "\e90b";
+}
+.heiafr-icon-cpu:before {
+  content: "\e900";
+}
+.heiafr-icon-embedded-systems:before {
+  content: "\e900";
+}
